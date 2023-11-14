@@ -93,7 +93,8 @@ publish packages. For example:
 ```
 
 `npm publish` requires authentication, but the npm Registry Publish Test Server
-does not require authentication. A dummy token can be used.
+does not require authentication. A dummy token can be used. Set the
+authorization in the `~/.npmrc` configuration file.
 
 ```bash
 //localhost:8077/:_authToken=NONE1234
