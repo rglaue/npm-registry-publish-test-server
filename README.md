@@ -72,6 +72,11 @@ Server running on port 8077...
 127.0.0.1 - - [13/Nov/2023 16:22:36] "POST /calculator-1.0.0.tgz HTTP/1.1" 201 -
 ^C
 KeyboardInterrupt received. Server shutting down.
+$ tree stored_packages/
+stored_packages/
+└── calculator-1.0.0.tgz
+
+1 directory, 1 file
 ```
 
 ## Configuration with an npm project
